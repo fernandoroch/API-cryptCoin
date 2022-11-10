@@ -39,11 +39,12 @@ body {
 
 
 
-.moedas-geral .titulo-moedas, .todas-moedas {
-  display: flex;
-  justify-content: center;
-}
-
-.moedas-geral .moeda, .todas-moedas:nth-child(1) {
-  margin-right: 10rem;
+.todas-moedas,.moedas-geral .titulo-moedas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 600px;
+  margin: 0 auto;
+  gap: 1rem;
+  padding: 1rem;
+  border: 2px solid #ccc;
 }
