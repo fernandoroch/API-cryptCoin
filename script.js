@@ -10,6 +10,7 @@ arrayMoedas.forEach((moedaArray,index) => {
   selecionarMoeda.innerHTML += `<option  value="${moedaArray}">${moedaArray}</option>`
 })
 
+/*   Requisição json api   */
 requisicaoHttp()
 function requisicaoHttp() {
   fetch('https://blockchain.info/ticker')
@@ -20,6 +21,7 @@ function requisicaoHttp() {
   });
 }
 
+/*   Manipula o DOM e atualiza os valores   */
 function domValorBtc(moeda){
   if(selecionarMoeda.value === moeda.BRL.symbol){
     valorAtual.innerHTML = moeda.BRL.buy.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
@@ -31,6 +33,7 @@ function domValorBtc(moeda){
   todasAsMoedas(moedasSelection)
 }
 
+/*   Mostra todos os valores de todas as moedas   */
 function todasAsMoedas(moeda){
   let estruturaTodasMoedas = ''
     if( verificador === 0){
@@ -40,6 +43,5 @@ function todasAsMoedas(moeda){
       })
       todasMoedas.innerHTML += estruturaTodasMoedas
     }
-    console.log(estruturaTodasMoedas);
     verificador++
 }
