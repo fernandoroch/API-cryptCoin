@@ -61,7 +61,7 @@
 
   <p>Click no botão abaixo e visualize o projeto </p>
 <br>
-  <button  style="padding:8px 20px; border-radius:5px; border:none; background:black;"><a style="color:aqua;" target="_blank" href="https://fernandoroch.github.io/FlexBlog/">Ir para projeto</a>
+  <button  style="padding:8px 20px; border-radius:5px; border:none; background:black;"><a style="color:aqua;" target="_blank" href="https://fernandoroch.github.io/API-cryptCoin/">Ir para projeto</a>
   </button>
   </div>
 
@@ -69,7 +69,7 @@
  <hr>
  <br>
 
-### Criado por fernando rocha.
+### Criado por Fernando Rocha.
 
 Rede Sociais:
 
